@@ -1,0 +1,31 @@
+/**
+ * KODMOD Open Donation — Environment Config
+ *
+ * HOW TO SETUP:
+ * 1. Copy this file and rename it to: config.js
+ * 2. Fill in your Supabase project URL and anon key below
+ * 3. config.js is gitignored — never commit it to version control
+ *
+ * GET YOUR SUPABASE CREDENTIALS:
+ * - Go to https://supabase.com → your project
+ * - Settings → API → copy "Project URL" and "anon public" key
+ */
+window.KODMOD_CONFIG = {
+  SUPABASE_URL: "https://your-project-id.supabase.co",
+  SUPABASE_ANON_KEY: "your-anon-public-key-here",
+
+  // --- Campaign Settings ---
+  CAMPAIGN_TARGET: 25000000,         // Donation target in IDR (Rp 25.000.000)
+  GRAND_FINAL_DATE: "2026-10-29",    // hackAstone Grand Final date (Amsterdam)
+  SPONSOR_COUNT: 0,                  // Update manually when sponsors join
+
+  // --- Bank Transfer Info ---
+  BANK_NAME: "BCA",
+  BANK_ACCOUNT_NUMBER: "1234567890",
+  BANK_ACCOUNT_NAME: "Gabriel Edbert Liandrew",
+
+  // --- Contact ---
+  WHATSAPP_NUMBER: "6281328777891",  // Without + sign, no spaces
+  EMAIL: "gabrieledbert@student.telkomuniversity.ac.id",
+  INSTAGRAM: "@kodmod.ai",
+};

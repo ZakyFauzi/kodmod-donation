@@ -1,0 +1,7 @@
+# Supabase / environment config — NEVER commit this file
+config.js
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.local
