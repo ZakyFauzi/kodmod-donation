@@ -126,3 +126,5 @@ For sponsorship inquiries, partnerships, or more information regarding KODMOD:
 - **WhatsApp**: [+62 813-2877-7891](https://wa.me/6281328777891)
 - **Email**: gabrieledbert@student.telkomuniversity.ac.id
 - **Instagram**: [@kodmod.ai](https://instagram.com/kodmod.ai)
+
+---
