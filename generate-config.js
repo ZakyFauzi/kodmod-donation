@@ -8,9 +8,9 @@ const config = `window.KODMOD_CONFIG = {
   GRAND_FINAL_DATE: '2026-10-29',
   SPONSOR_COUNT: 0,
 
-  BANK_NAME: 'BCA',
-  BANK_ACCOUNT_NUMBER: '1234567890',
-  BANK_ACCOUNT_NAME: 'Gabriel Edbert Liandrew',
+  BANK_NAME: 'Bank Mandiri',
+  BANK_ACCOUNT_NUMBER: '1360019351375',
+  BANK_ACCOUNT_NAME: 'GABRIEL EDBERT LIAND',
 
   WHATSAPP_NUMBER: '6281328777891',
   EMAIL: 'gabrieledbert@student.telkomuniversity.ac.id',
