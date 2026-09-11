@@ -1940,8 +1940,8 @@
     }
 
     .team-av {
-      width: 56px;
-      height: 56px;
+      width: 80px;
+      height: 80px;
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -1950,6 +1950,17 @@
       font-weight: 800;
       color: #fff;
       margin: 0 auto 14px;
+      overflow: hidden;
+      border: 2.5px solid var(--border);
+      box-shadow: 0 2px 12px rgba(26, 86, 219, .12);
+    }
+
+    .team-av img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      display: block;
     }
 
     .team-name {
@@ -3084,9 +3095,9 @@
         <div class="pay-panel active" id="panelQris" role="tabpanel">
           <div class="pay-cols">
             <div class="qris-col">
-              <div class="qris-frame">
+              <div class="qris-frame" style="width:300px;height:300px;">
                 <img src="qris.jpg" alt="QRIS KODMOD" id="qrisImg"
-                  onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22><rect fill=%22%23f3f4f6%22 width=%22180%22 height=%22180%22/><text x=%2250%25%22 y=%2248%25%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22 font-family=%22sans-serif%22 font-size=%2211%22 fill=%22%239ca3af%22>QRIS Placeholder</text></svg>'" />
+                  onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22260%22 height=%22260%22><rect fill=%22%23f3f4f6%22 width=%22260%22 height=%22260%22/><text x=%2250%25%22 y=%2248%25%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22 font-family=%22sans-serif%22 font-size=%2211%22 fill=%22%239ca3af%22>QRIS Placeholder</text></svg>'" />
               </div>
               <p class="qris-name">BPKB TEAM</p>
               <p class="qris-note">Scan QR menggunakan e-wallet<br />atau mobile banking apapun</p>
@@ -3550,55 +3561,63 @@
         <div class="carousel-viewport">
           <div class="c-track" id="teamTrack">
             <div class="team-card">
-              <div class="team-av av-advisor">GK</div>
+              <div class="team-av av-advisor"><img src="Foto Anggota BPKB/gamma.png" alt="Dr. Gamma Kosala"
+                  onerror="this.parentElement.textContent='GK'" /></div>
               <p class="team-name">Dr. Gamma Kosala</p>
               <span class="team-role r-advisor">Advisor</span>
               <p class="team-bio">Kepala Program Studi Data Science S1, telah membimbing dan memenangkan lebih dari 50+
                 kompetisi bersama mahasiswanya.</p>
             </div>
             <div class="team-card">
-              <div class="team-av av-pm">GE</div>
+              <div class="team-av av-pm"><img src="Foto Anggota BPKB/gabriel.png" alt="Gabriel Edbert Liandrew"
+                  onerror="this.parentElement.textContent='GE'" /></div>
               <p class="team-name">Gabriel Edbert Liandrew</p>
               <span class="team-role r-pm">Project Manager</span>
               <p class="team-bio">Top 10 Mahasiswa Berprestasi 2025 dengan rekam jejak 10+ kemenangan kompetisi
                 nasional.</p>
             </div>
             <div class="team-card">
-              <div class="team-av av-ai">HI</div>
+              <div class="team-av av-ai"><img src="Foto Anggota BPKB/Hanif.png" alt="Hanif Imaduddin"
+                  onerror="this.parentElement.textContent='HI'" /></div>
               <p class="team-name">Hanif Imaduddin</p>
               <span class="team-role r-ai">AI Engineer</span>
               <p class="team-bio">Top 150 dari 2.100+ tim di Reply AI Agent Challenge — aktif berkompetisi di level
                 nasional dan global.</p>
             </div>
             <div class="team-card">
-              <div class="team-av av-ai">NA</div>
+              <div class="team-av av-ai"><img src="Foto Anggota BPKB/wahib.jpg" alt="Naufal Arkan Wahib"
+                  onerror="this.parentElement.textContent='NA'" /></div>
               <p class="team-name">Naufal Arkan Wahib</p>
               <span class="team-role r-ai">AI Engineer</span>
               <p class="team-bio">Konsisten meraih podium di 20+ kompetisi innovation essay, Data Science, dan AI.</p>
             </div>
             <div class="team-card">
-              <div class="team-av av-dev">AK</div>
+              <div class="team-av av-dev"><img src="Foto Anggota BPKB/ardava.jpg" alt="Muhammad Karov Ardava Barus"
+                  onerror="this.parentElement.textContent='AK'" /></div>
               <p class="team-name">Muhammad Karov Ardava Barus</p>
               <span class="team-role r-dev">Fullstack Developer</span>
               <p class="team-bio">Koordinator Lab Digital Talent Center, Juara 1 Hackfest 2026, aktif berkontribusi ke
                 publikasi riset AI.</p>
             </div>
             <div class="team-card">
-              <div class="team-av av-dev">BS</div>
+              <div class="team-av av-dev"><img src="Foto Anggota BPKB/bayu.png" alt="Bayu Satrio Wibowo"
+                  onerror="this.parentElement.textContent='BS'" /></div>
               <p class="team-name">Bayu Satrio Wibowo</p>
               <span class="team-role r-dev">Fullstack Developer</span>
               <p class="team-bio">Juara 2 Innovillage dalam pengembangan sistem fermentasi singkong otomatis berbasis
                 sensor.</p>
             </div>
             <div class="team-card">
-              <div class="team-av av-design">YR</div>
+              <div class="team-av av-design"><img src="Foto Anggota BPKB/yola.jpeg" alt="Yolanda Rahma Christi"
+                  onerror="this.parentElement.textContent='YR'" /></div>
               <p class="team-name">Yolanda Rahma Christi</p>
               <span class="team-role r-design">UI/UX Designer</span>
               <p class="team-bio">Penerima hibah PKM untuk pengembangan aplikasi kesehatan digital monitoring gizi
                 harian.</p>
             </div>
             <div class="team-card">
-              <div class="team-av av-design">ZF</div>
+              <div class="team-av av-design"><img src="Foto Anggota BPKB/zaky.png" alt="Zaky Muhammad Fauzi"
+                  onerror="this.parentElement.textContent='ZF'" /></div>
               <p class="team-name">Zaky Muhammad Fauzi</p>
               <span class="team-role r-design">UI/UX Designer</span>
               <p class="team-bio">Top 5% di 30+ kompetisi Kaggle nasional dan internasional, rekam jejak kuat di
